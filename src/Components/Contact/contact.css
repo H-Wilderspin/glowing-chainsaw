@@ -1,0 +1,41 @@
+.Contact-container{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgba(240, 248, 255, 0.856);
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    padding: 2rem 1rem 4rem;
+    flex-direction: column;
+    justify-content: space-between;
+    font: 1rem "Lora", sans-serif;
+    font-style: italic;
+    letter-spacing: 1.6px;
+}
+.Contact-container > h3 {
+    color: rgb(228, 228, 228);
+    max-width: 800px;
+    margin: 0 auto .5rem;
+    padding: 0 2rem;
+}
+.ContactMe-FormElement {
+    min-height: 50%;
+    min-width: 20rem;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    flex-direction: column;
+    margin-bottom:20%;
+}
+.ContactMe-FormItem{
+    background-color: rgba(0, 0, 0, 0.322);
+    color: rgb(255, 255, 255);
+}
+.ContactMe-TextArea{
+    min-height: 40%;
+}
+.ContactMe-FormElement > P {
+    font-size: smaller;
+    padding: 1rem;
+}
